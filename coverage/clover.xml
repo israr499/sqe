@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1779461158049" clover="3.2.0">
+  <project timestamp="1779461158050" name="All files">
+    <metrics statements="26" coveredstatements="25" conditionals="24" coveredconditionals="23" methods="4" coveredmethods="4" elements="54" coveredelements="52" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
+    <file name="authService.js" path="C:\Users\israr\continuous-testing-demo\src\authService.js">
+      <metrics statements="26" coveredstatements="25" conditionals="24" coveredconditionals="23" methods="4" coveredmethods="4"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="14" count="69" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="17" count="66" type="cond" truecount="4" falsecount="0"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="65" type="cond" truecount="4" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="64" type="stmt"/>
+      <line num="34" count="63" type="stmt"/>
+      <line num="35" count="63" type="cond" truecount="1" falsecount="1"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="39" count="63" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="44" count="61" type="stmt"/>
+      <line num="45" count="61" type="stmt"/>
+      <line num="55" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="59" count="9" type="stmt"/>
+      <line num="60" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="64" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="69" count="6" type="stmt"/>
+      <line num="70" count="6" type="stmt"/>
+      <line num="77" count="12" type="stmt"/>
+      <line num="80" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

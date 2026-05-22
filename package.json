@@ -1,0 +1,30 @@
+{
+  "name": "continuous-testing-demo",
+  "version": "1.0.0",
+  "description": "Practical demo for Assignment #04 – Continuous Testing in Agile/DevOps",
+  "main": "src/authService.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "author": "BSE-6 Group",
+  "license": "MIT"
+}
