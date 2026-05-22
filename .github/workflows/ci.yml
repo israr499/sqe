@@ -19,11 +19,8 @@ jobs:
         with:
           node-version: 22.x
 
-      - name: Install Jest Globally
-        run: npm install -g jest
-
       - name: Install Dependencies
         run: npm install
 
       - name: Run Tests
-        run: jest --coverage
+        run: ./node_modules/.bin/jest --coverage --forceExit
